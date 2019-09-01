@@ -1,7 +1,5 @@
 # Mestre dos Códigos
 
-![](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/home-warriors.jpg?raw=true)
-
 Escolha seu caminho, **treine** e **passes pelos testes** para *provar seu valor nesse game!*
 
 Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Mestre**??
@@ -12,3 +10,13 @@ Caminhos:
 * [Java](java)
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
+
+## Em progresso :)
+
+* Mais caminhos para seguir
+* Mais desafios
+* Guia de como submeter as respostas
+* Guia de como contribuir para o MDC
+* Últimas conquistas/ranking
+
+![Warriors](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/home-warriors.jpg?raw=true)
