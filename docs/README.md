@@ -1,6 +1,6 @@
 # Mestre dos Códigos
 
-Escolha seu caminho, **treine** e **passes pelos testes** para *provar seu valor nesse game!*
+Escolha seu caminho, **treine** e **passes pelos desafios** para *provar seu valor nesse game!*
 
 Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Mestre**??
 
