@@ -11,7 +11,7 @@ Caminhos:
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
 
-## Em progresso :)
+### Em progresso :)
 
 * Mais caminhos para seguir
 * Mais desafios
