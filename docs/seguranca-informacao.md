@@ -5,3 +5,7 @@
 Torne-se um escudeiro seguindo os passos a seguir ;)
 
 ![Escudeiro de Segurança da Informação](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/escudeiro_seguranca_informacao.png?raw=true)
+
+## Cavaleiro - Em breve!
+
+## Mestre - Em breve!

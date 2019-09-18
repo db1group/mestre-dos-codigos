@@ -1,20 +1,23 @@
 # Mestre dos Códigos
 
-Escolha seu caminho, **treine** e **passes pelos desafios** para *provar seu valor nesse game!*
+Escolha seu caminho, **treine** e **passe pelos desafios** para *provar seu valor nesse game!*
 
-Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Mestre**??
+Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Mestre**?
 
 Caminhos:
 
 * [Análise de Negócio](analise-negocio)
 * [Java](java)
+* [Dotnet](dotnet)
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
+* [PHP - Em breve!]()
+* [Delphi - Em breve!]()
+* [Frontend - Em breve!]()
+* [Arquitetura de Software - Em breve!]()
 
 ### Em progresso :)
 
-* Mais caminhos para seguir
-* Mais desafios
 * Guia de como submeter as respostas
 * Guia de como contribuir para o MDC
 * Últimas conquistas/ranking
