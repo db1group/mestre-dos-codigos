@@ -1,5 +1,5 @@
 * [Home](/)
 * [Análise de Negócio](analise-negocio)
-* [Dotnet](dotnet)
+* [.NET](dotnet)
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
