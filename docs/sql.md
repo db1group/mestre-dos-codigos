@@ -219,3 +219,7 @@ O analista responsavel pelo gerenciamento do banco de dados precisa excluir a ta
 Com o aumento da complexidade do produto, surgiu a necessidade de criar uma estrutura de tabelas para armazenar endereços que será utilizada por outras tabelas como "usuario", "forncedor" e "funcionario". Sabendo disso, a sua missão é criar essa nova estrutura de tabelas de endereços que será utilizada nos demais locais do produto. Crie um modelo de dados no formato de DER com as tabelas dessa nova estrutura.
 
 20.Com base no modelo anterior de endereços crie os códigos DDL para criação das tabelas e os cuidados tomados com normalização e com a criação de indices;
+
+## Cavaleiro - Em breve!
+
+## Mestre - Em breve!
