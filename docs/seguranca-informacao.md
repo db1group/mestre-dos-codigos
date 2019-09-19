@@ -1,4 +1,4 @@
-# Bem  vindo ao caminho de Segurança da Informação do Mestre dos Códigos
+# Bem  vindo ao território de Segurança da Informação do Mestre dos Códigos
 
 ## Escudeiro
 

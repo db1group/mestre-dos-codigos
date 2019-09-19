@@ -1,4 +1,4 @@
-# Bem  vindo ao caminho de .NET do Mestre dos Códigos
+# Bem  vindo ao território de .NET do Mestre dos Códigos
 
 ## Escudeiro
 

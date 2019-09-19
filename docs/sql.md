@@ -1,4 +1,4 @@
-# Bem vindo ao caminho de SQL do Mestre dos Códigos
+# Bem vindo ao território de SQL do Mestre dos Códigos
 
 ## Escudeiro
 
@@ -56,23 +56,23 @@ Torne-se um escudeiro superando todos os desafios a seguir ;)
 10. Dado a tabela abaixo, criamos um comando de "INSERT", no entando ele esta apresentando um erro. Reescreva o código corrigindo o:
 
         insert into cliente(
-          id, 
-          nome_cliente, 
-          razao_social, 
-          dt_cadastro, 
-          cnpj, 
-          telefone, 
-          cidade, 
+          id,
+          nome_cliente,
+          razao_social,
+          dt_cadastro,
+          cnpj,
+          telefone,
+          cidade,
           estado)
         values (
-          1, 
-          '0001', 
-          'AARONSON', 
-          'AARONSON FURNITURE LTDA', 
-          '2015-02-17', 
-          '17.807.928/0001-85', 
-          '(21) 8167-6584', 
-          'MARINGA', 
+          1,
+          '0001',
+          'AARONSON',
+          'AARONSON FURNITURE LTDA',
+          '2015-02-17',
+          '17.807.928/0001-85',
+          '(21) 8167-6584',
+          'MARINGA',
           'PR'
         );
 
@@ -227,13 +227,13 @@ O analista responsavel pelo gerenciamento do banco de dados precisa excluir a ta
 
 19. A tabela "cliente" do produto que você trabalha, possuí os seguintes campos:
 
-   Nome;  
-   Telefone;  
-   E-mail;  
-   Endereço;  
-   Cidade;  
-   Estado;  
-   Bairro.  
+   Nome;
+   Telefone;
+   E-mail;
+   Endereço;
+   Cidade;
+   Estado;
+   Bairro.
 
 Com o aumento da complexidade do produto, surgiu a necessidade de criar uma estrutura de tabelas para armazenar endereços que será utilizada por outras tabelas como "usuario", "forncedor" e "funcionario". Sabendo disso, a sua missão é criar essa nova estrutura de tabelas de endereços que será utilizada nos demais locais do produto. Crie um modelo de dados no formato de DER com as tabelas dessa nova estrutura.
 
@@ -242,4 +242,3 @@ Com o aumento da complexidade do produto, surgiu a necessidade de criar uma estr
 ## Cavaleiro - Em breve!
 
 ## Mestre - Em breve!
-

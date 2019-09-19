@@ -1,4 +1,4 @@
-# Bem  vindo ao caminho de Java do Mestre dos Códigos
+# Bem  vindo ao território de Java do Mestre dos Códigos
 
 ## Escudeiro - Em breve!
 
