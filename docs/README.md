@@ -1,14 +1,14 @@
 # Mestre dos Códigos
 
-Escolha seu caminho, **treine** e **passe pelos desafios** para *provar seu valor nesse game!*
+Escolha seu território, **treine** e **passe pelas missões** para *provar seu valor nesse game!*
 
 Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Mestre**?
 
-Caminhos:
+Territórios:
 
 * [Análise de Negócio](analise-negocio)
 * [Java](java)
-* [Dotnet](dotnet)
+* [.NET](dotnet)
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
 * [PHP - Em breve!]()
