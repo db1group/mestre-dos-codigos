@@ -7,10 +7,10 @@ Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Me
 Territórios:
 
 * [Análise de Negócio](analise-negocio)
-* [Java](java)
 * [.NET](dotnet)
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
+* [Java - Em breve!](java)
 * [PHP - Em breve!]()
 * [Delphi - Em breve!]()
 * [Frontend - Em breve!]()
