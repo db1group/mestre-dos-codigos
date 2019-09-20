@@ -42,7 +42,3 @@ Imagine um novo produto(sistema, app, portal etc) e que você será o responsáv
 14) Crie uma alteração de um dos requisitos funcionais e a documente de forma que outras pessoas que forem consultar o requisito consiga encontrar facilmente o que foi alterado. E para essa alteração crie um novo teste de aceitação.
 
 15) Evidencie alinhamentos realizados com seu cliente referente a um requisito. Essa evidência pode ser um e-mail, uma ata de reunião ou conversa.
-
-## Cavaleiro - Em breve!
-
-## Mestre - Em breve!
