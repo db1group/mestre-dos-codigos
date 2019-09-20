@@ -4,7 +4,7 @@
 
 Torne-se um escudeiro superando todos os desafios a seguir ;)
 
-# Prática
+### Prática
 
 Desenvolver uma landing page, baseada na página principal do Youtube  Music e Netflix.
 
@@ -30,7 +30,7 @@ Será avaliado:
 -   Responsividade da página
 -   Apenas será avaliado a primeira página da aplicação (home)
 
-# Perguntas de Javascript
+### Perguntas de Javascript
 
 1. Explique com suas palavras a diferença entre a utilização de var, const e let?
 
@@ -38,15 +38,11 @@ Será avaliado:
 
 2. Assinale a(s) diferença(s) entre Funções normais e Arrow Functions?
 
-- [ ] Funções normais não guardam escopo
-
-- [ ] Funções normais guardam escopo
-
-- [ ] Arrow function são mais rápidas
-
-- [ ] Arrow function podem ser instanciadas
-
-- [ ] Arrow function não guardam escopo
+ - [ ] Funções normais não guardam escopo  
+ - [ ] Funções normais guardam escopo  
+ - [ ] Arrow function são mais rápidas  
+ - [ ] Arrow function podem ser instanciadas  
+ - [ ] Arrow function não guardam escopo  
 
 ---
 
@@ -69,13 +65,10 @@ this.name = "Walter"
 const name = userData.getName()
 
 ```
-- [ ] John
-
-- [ ] Luke
-
-- [ ] James
-
-- [ ] Walter
+ - [ ] John
+ - [ ] Luke
+ - [ ] James
+ - [ ] Walter
 
 ---
 
@@ -103,13 +96,10 @@ event.getTitle()
 
 ```
 
-- [ ] The event 04/02/2019 will take place on Event Test
-
-- [ ] The event undefined will take place on undefined
-
-- [ ] Uncaught TypeError
-
-- [ ] The event null will take place on null
+ - [ ] The event 04/02/2019 will take place on Event Test
+ - [ ] The event undefined will take place on undefined
+ - [ ] Uncaught TypeError
+ - [ ] The event null will take place on null
 
 ---
 
@@ -181,25 +171,19 @@ const object = Object.create()
 
 20. Em um ambiente do browser. Qual o valor do this utilizando "use-strict";
 
-- [ ] window
-
-- [ ] global
-
-- [ ] undefined
-
-- [ ] null
+ - [ ] window
+ - [ ] global
+ - [ ] undefined
+ - [ ] null
 
 ---
 
 21. Quando eu posso utilizar o "Use-strict" no meu código ?
 
-- [ ] No ínicio do meu código
-
-- [ ] No inicio do block if
-
-- [ ] No inicio de um loop
-
-- [ ] no inicio de uma função
+ - [ ] No ínicio do meu código
+ - [ ] No inicio do block if
+ - [ ] No inicio de um loop
+ - [ ] no inicio de uma função
 
 ## Cavaleiro - Em breve!
 
