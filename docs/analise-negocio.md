@@ -1,4 +1,4 @@
-# Bem vindo ao território de SQL do Mestre dos Códigos
+# Bem vindo ao território de Análise de Negócio do Mestre dos Códigos
 
 Torne-se um escudeiro, cavaleiro e mestre superando todos os desafios a seguir ;)
 
