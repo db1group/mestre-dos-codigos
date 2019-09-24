@@ -198,7 +198,7 @@ Marque o que for correto:
 
   - [ ] As classes podem implementar 2 interfaces que possuem a mesma assinatura de método
   - [ ] Interfaces podem ser instanciadas diretamente.
-  - [ ] Interfaces podem ser herdadas por outras interfaces (Correto)
+  - [ ] Interfaces podem ser herdadas por outras interfaces 
   - [ ] Os membros da interface podem ter modificadores de acesso
   - [ ] Interfaces podem conter apenas métodos como membros.
 
