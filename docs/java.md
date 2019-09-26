@@ -1,5 +1,11 @@
 # Bem  vindo ao território de Java do Mestre dos Códigos
 
+## Instruções
+
+- Todas as respostas devem estar em algum repositório GIT na nuvem como projeto público.
+- Você pode criar um único projeto ou vários projetos no repositório GIT, mas é importante que algum lugar tenha um arquivo informando a resolução de cada desafio,de forma que o avaliador encontre facilmente.
+- É importante que exista instruções de execução dos desafios.
+
 ## Escudeiro
 
 ### O básico do Java
@@ -24,11 +30,6 @@
     - O que é, e em que momento da resolução da questão foi gerado o  BYTECODE;
 
 4. Durante muito tempo, uma das maiores dificuldades na hora de programar era o gerenciamento de memória. Os desenvolvedores eram responsáveis pela sua alocação e liberação manualmente, o que levava a muitos erros e memory leaks. Hoje, em todas as plataformas modernas, Java inclusive, temos gerenciamento de memória automático através de algoritmos de coleta de lixo. Faça uma pesquisa sobre Garbage Collector, e faça uma explanação de como este algoritmo funciona na plataforma java. Também implemente dois algoritmos em java, um que exemplifique um possível erro de OutOfMemoryError e outro que mostre os cuidados tomados para não acontecer este tipo de erro durante o desenvolvimento de software.
-
-
-Parabéns, primeira fase de escudeiro java foi concluída, que tal você colocar tudo isso no seu Github e nos enviar?
-
-Até logo. ;)
 
 ### Conhecendo a plataforma
 
@@ -145,7 +146,7 @@ Até logo. ;)
     - Crie um algoritmo para resolver o problema utilizando o conhecimento adquirido nos exercícios anteriores
     - Seu algoritmo deve ter uma cobertura de testes de no monímo 80%
     - Justifique a escolha dos problemas
-    - Envie seu código para o Github.
+    - Envie seu código para o repositório GIT.
 
 ## Cavaleiro - Em breve!
 
