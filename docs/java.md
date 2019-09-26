@@ -144,7 +144,8 @@ Até logo. ;)
 
     - Crie um algoritmo para resolver o problema utilizando o conhecimento adquirido nos exercícios anteriores
     - Seu algoritmo deve ter uma cobertura de testes de no monímo 80%
-    - Justifique a escolha dos problemas.
+    - Justifique a escolha dos problemas
+    - Envie seu código para o Github.
 
 ## Cavaleiro - Em breve!
 
