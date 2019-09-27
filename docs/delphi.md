@@ -1,4 +1,4 @@
-# Bem  vindo ao território de Java do Mestre dos Códigos
+# Bem  vindo ao território de Delphi do Mestre dos Códigos
 
 ## Escudeiro
 
