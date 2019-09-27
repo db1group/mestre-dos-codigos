@@ -9,7 +9,7 @@ Territórios:
 * [.NET](dotnet)
 * [Análise de Negócio](analise-negocio)
 * [Arquitetura de Software (Em breve)]()
-* [Delphi (Em breve)]()
+* [Delphi](delphi)
 * [Frontend](frontend)
 * [Java](java)
 * [PHP (Em breve)]()

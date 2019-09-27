@@ -1,6 +1,7 @@
 * [Home](/)
 * [.NET](dotnet)
 * [Análise de Negócio](analise-negocio)
+* [Delphi](delphi)
 * [Frontend](frontend)
 * [Java](java)
 * [Segurança da Informação](seguranca-informacao)
