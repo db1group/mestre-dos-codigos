@@ -1,14 +1,10 @@
-# Bem  vindo ao território de Delphi do Mestre dos Códigos
-
-## Escudeiro
-
 1. Em uma aplicação console, construa um programa que faça o cálculo fatorial do número informado pelo usuário.
 
 2. Em uma aplicação console, construa um programa que leia uma lista de números informada pelo usuário. Em seguida, através do algoritmo merge-sort, faça a ordenação da lista e apresente o resultado.
 
 3. Em uma aplicação console, escreva um programa que leia os seguintes dados: nome do vendedor, salário fixo e total de vendas. Considerando que o salário fixo tem um acréscimo de 15% com base no total vendido, apresente na tela: o nome do usuário, o salário fixo e o valor a receber. Obs: Utilize um objeto para armazenar essas informações do vendedor.
 
-4. Escreva uma aplicação console que receba uma lista de nomes completos (nome e sobrenome) informados pelo usuário. Estes nomes deverão ser convertidos para caixa-mista, ou seja, as iniciais de cada nome devem ser maiúsculas. Leve em consideração que as preposições ("de", "do", "dos", "e", etc.) devem ser convertidas para minúsculas.
+4. Escreva uma aplicação console que receba uma lista de nomes completos (nome e sobrenome) informados pelo usuário. Estes nomes deverão ser convertidos para caixa-mista, ou seja, as iniciais de cada nome devem ser maiúsculas. Leve em consideração que as preposições (“de”, “do”, “dos”, ”e”, etc.) devem ser convertidas para minúsculas.
 
 5. Em uma aplicação console, construa um programa que leia uma lista de frases. Apresente ao usuário apenas as frases que formam um palíndromo.
 
@@ -21,7 +17,7 @@
    + Adicione três `strings` aleatórias e 15 números aleatórios (podem ser entradas do usuário);
    + Imprima o retorno da função `Size` dos dois objetos;
    + Execute o método `Push` da pilha de `strings`, mostrando o resultado no console, até que a pilha esteja vazia;
-   + faça o mesmo procedimento com a pilha de inteiros;
+   + Faça o mesmo procedimento com a pilha de inteiros;
    + Imprima o retorno da função `Size` dos dois objetos;
 
 9. Em uma aplicação console, crie uma classe chamada `TFuncionario` que armazene os dados de funcionários (nome, email e telefone). Crie também uma classe, utilizando _Generics_, chamada `TCacheObjetos`. O seu funcionamento será como um cache de objetos e deverá armazenar instâncias de diferentes tipos. Sendo assim, caso o cache não contenha uma instância da classe solicitada, `TCacheObjetos` deverá criá-la, armazenar no seu cache interno e retornar a instância.
@@ -37,8 +33,8 @@ Para testar a aplicação, crie duas variáveis (`funcionario1` e `funcionario2`
 
 12. Criar um Class Helper para a classe `TStringList` com as seguintes funções:
     + `IsEmpty`: Verifica se lista está vazia;
-    + `HasDuplicate`: Verifica se a lista contêm valores duplicados;
-    + `ToJSON`: Verifica se o conteúdo da Lista está no formato Nome=Valor. Caso esteja, transforme o conteúdo conforme a notação JSON e retorne como string (não é necessário utilizar as classes nativas neste momento). Caso não esteja, lance uma execução informando que não foi possível converter o conteúdo.
+    + `HasDuplicate`: Verifica se a lista contém valores duplicados;
+    + `ToJSON`: Verifica se o conteúdo da Lista está no formato Nome=Valor. Caso esteja, transforme o conteúdo conforme a notação JSON e retorne como string (não é necessário utilizar as classes nativas neste momento). Caso não esteja, lance uma exceção informando que não foi possível converter o conteúdo.
 
 13. Crie uma `Interface` com um método de leitura de arquivos (`LerDoArquivo`) e outra `Interface` com um método de escrita de arquivos (`SalvarParaArquivo`). Escreva uma classe que implemente essas duas `Interfaces`, cujos métodos devem carregar e salvar o conteúdo dessa classe. Dica: O conteúdo pode ser uma `TStringList`.
 
@@ -53,6 +49,7 @@ Para testar a aplicação, crie duas variáveis (`funcionario1` e `funcionario2`
 15. A partir de uma sentença digitada pelo usuário, execute a pesquisa na API do GitHub (https://api.github.com/search/repositories?q={busca}), substituindo o texto {busca}  pela entrada do usuário. Carregue a resposta da API em um objeto com os seguintes campos: `id, name, html_url e description`. Por fim, liste todas as ocorrências encontradas para o usuário. A aplicação pode ser console ou VCL.
 
 18. Utilizando classes nativas do Delphi (`System.JSON`), crie um conteúdo JSON que contenha campos do tipo texto, numérico, condicional e lista. O resultado do JSON deve ser igual ao abaixo: 
+
 
         {
             "player": "Mystery",
@@ -79,7 +76,7 @@ Para testar a aplicação, crie duas variáveis (`funcionario1` e `funcionario2`
             ]
         }
 
-19. faça o download do <a href="https://github.com/db1global/mestre-dos-codigos/tree/master/docs/files/users-delphi.xml" target="_blank">XML</a>. Crie um projeto VCL no Delphi. Utilizando o assistante XML Data Binding, faça a leitura do XML previamente baixado. Leia o conteúdo do XML nas classes geradas e o apresente em um componente TMemo no seguinte formato:
+19. Faça o download do <a href="https://github.com/db1global/mestre-dos-codigos/tree/master/docs/files/users-delphi.xml" target="_blank">XML</a>. Crie um projeto VCL no Delphi. Utilizando o assistante XML Data Binding, faça a leitura do XML previamente baixado. Leia o conteúdo do XML nas classes geradas e o apresente em um componente TMemo no seguinte formato:
 
             ID: 3
             Nome: Tanyahbbhvvg
