@@ -30,6 +30,16 @@ Será avaliado:
 -   Responsividade da página
 -   Apenas será avaliado a primeira página da aplicação (home)
 
+O intuito desta etapa é tornar o desafiante familiarizado com a base de HTML, CSS e Javascript, criando uma estrutura sólida para os próximos níveis, por este motivo nesta etapa deve-se utilizar essas tecnologias sem abstrações ou ferramentas de terceiros. Sendo assim não será permitido o uso de frameworks, automatizadores ou pré-processadores, como: Vue, Bootstrap, SASS, PUG, Typescript, Webpack, React, JQuery, dentre outros...
+
+Poderá ser utilizado javascript ES6, já que os navegadores mais utilizados possuem compatibilidade a algum tempo.
+
+Recursos externos puramente estéticos podem ser utilizados, como imagens(svg, png, gif, etc..), fontes, e ícones(font-awesome, icomoon).
+
+
+Caso haja alguma dúvida poderá ser aberto uma issue no github.
+
+
 ### Perguntas de Javascript
 
 1. Explique com suas palavras a diferença entre a utilização de var, const e let?
