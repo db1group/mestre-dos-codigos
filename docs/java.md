@@ -18,7 +18,7 @@
     - JDK
     - JRE
 
-  Pontue o que cada palavra significa, onde e quando usamos e qual a importância de cada uma deles:
+  Pontue o que cada palavra significa, onde e quando usamos e qual a importância de cada uma delas:
 
 3. Para começarmos desenvolver em Java, precisamos de muito pouco. Basta um editor de texto, uma outra coisinha que você aprendeu na questão de número 2 e um terminal. Crie uma classe Java utilizando um editor qualquer. Esta classe deve ter um método main que imprima a frase “Hello World!”, para começarmos com o pé direito esta aventura de programação. Agora faça uma explanação sobre:
 
