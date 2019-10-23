@@ -7,14 +7,14 @@ Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Me
 Territórios:
 
 * [.NET (Em breve)]()
-* [Análise de Negócio](analise-negocio)
+* [Análise de Negócio](analise-negocio.md)
 * [Arquitetura de Software (Em breve)]()
-* [Delphi](delphi)
-* [Frontend](frontend)
-* [Java](java)
+* [Delphi](delphi.md)
+* [Frontend](frontend.md)
+* [Java](java.md)
 * [PHP (Em breve)]()
-* [Segurança da Informação](seguranca-informacao)
-* [SQL](sql)
+* [Segurança da Informação](seguranca-informacao.md)
+* [SQL](sql.md)
 
 ### Em progresso :)
 
