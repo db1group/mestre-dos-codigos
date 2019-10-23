@@ -8,7 +8,7 @@ Territórios:
 
 * [.NET (Em breve)]()
 * [Análise de Negócio](analise-negocio.md)
-* [Arquitetura de Software (Em breve)]()
+* [Arquitetura de Software](arquitetura.md)
 * [Delphi](delphi.md)
 * [Frontend](frontend.md)
 * [Java](java.md)
