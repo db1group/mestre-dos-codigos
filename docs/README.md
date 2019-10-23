@@ -11,7 +11,7 @@ Territórios:
 * [Arquitetura de Software (Em breve)]()
 * [Delphi](delphi)
 * [Frontend](frontend)
-* [Java](java)
+* [Java](java.md)
 * [PHP (Em breve)]()
 * [Segurança da Informação](seguranca-informacao)
 * [SQL](sql)
