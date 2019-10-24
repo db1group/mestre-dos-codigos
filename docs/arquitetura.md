@@ -12,18 +12,31 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 
 ### Segurança
     
-    Um Arquiteto de Software deve garantir e prezar pela segurança da aplicação sob sua responsabilidade. Este tópico aborda questões de ambiente, aplicação e análise de vulnerabilidades comumente divulgados pela OWASP.
+> Um Arquiteto de Software deve garantir e prezar pela segurança da aplicação sob sua responsabilidade. Este tópico aborda questões de ambiente, aplicação e análise de vulnerabilidades comumente divulgados pela OWASP.
 
 ### Banco de Dados
 
-    Em algumas situações o Arquiteto de Software acaba não escolhendo o banco de dados a ser utiliza, no entanto, precisa garantir ACID (Atomicity, Consistency, Isolation, Durability) dos dados.
+> Em algumas situações o Arquiteto de Software acaba não escolhendo o banco de dados a ser utiliza, no entanto, precisa garantir ACID (Atomicity, Consistency, Isolation, Durability) dos dados.
 
 ### Boas Práticas de Programação
+
+> 
+
 ### Teste de Automatizado
+
+> 
+
 ### Entrega Contínua
+
+> 
+
 ### Estilos Arquiteturais
+
+> 
+
 ### Padrões Arquiteturais
 
+> 
 
 ## Escudeiro
 
