@@ -20,15 +20,15 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 
 ### Boas Práticas de Programação
 
-> 
+> A qualidade interna do software é importante para que o desenvolvimento possa fluir com facilidade potencializando a manutenibilidade. Técnicas como SOLID e Object Calistenics e Design Patterns são indispensáveis.
 
-### Teste de Automatizado
+### Teste Automatizado
 
-> 
+> Para que desenvolvedores escrevam testes sem dificuldades é necessário ter uma arquitetura que permite validar os mais variados cenários, para isso, utilizamos Testes de Unidade, Integração, Contrato, End-To-End (E2E) e Mutação.
 
 ### Entrega Contínua
 
-> 
+> Garantir uma entrega contínua de valor para todos envolvidos é essencial, e técnicas como Continuous Integration (CI), Continuous Deployment/Delivery (CD) e Continuous Verification (CV) são fundamentais.
 
 ### Estilos Arquiteturais
 
@@ -48,6 +48,16 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 
 1.3. Construir uma aplicação que utilize transações de banco de dados, controlando que uma transação não seja afetada por outra.
 
+1.4. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+
+1.5. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
+
+1.5.1. Construir uma aplicação que contenha testes de unidade.
+
+1.5.2. Contruir uma aplicação que contenha testes de integração.
+
+1.6. Construir um pipeline de Continuous Integration.
+
 ## Cavaleiro
 
 ### Levantando paredes
@@ -62,6 +72,16 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 2.4. Construir uma aplicação que utilize mais de uma transação de banco de dados no mesmo processo.
 
 2.5. Dado 3 (três) bancos de dados relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
+
+2.6. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+
+2.7. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
+
+2.7.1. Construir uma aplicação que contenha testes End-To-End (E2E).
+
+2.7.2. Contruir uma aplicação que contenha testes de contrato.
+
+2.8. Construir um pipeline de Continuous Deployment.
 
 ## Mestre
 
@@ -78,3 +98,13 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 3.2. Construir uma aplicação que realize commit  e rollback de informações em dois bancos de dados distintos.
 
 3.3. Dado 3 (três) bancos de dados não relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
+
+3.4. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+
+3.5. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
+
+3.5.1. Construir uma aplicação que contenha testes de mutação.
+
+3.6. Construir um pipeline de Continuous Delivery.
+
+3.7. Construir um pipeline que implemente Continuous Verification.
