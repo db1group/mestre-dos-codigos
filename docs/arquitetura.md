@@ -32,11 +32,7 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 
 ### Estilos Arquiteturais
 
-> 
-
-### Padrões Arquiteturais
-
-> 
+> Problemas podem ser resolvidos com muitas soluções diferentes, no entanto, nem sempre a melhor solução é utilizada. Estilos arquiteturais nos ajudam a resolver problemas utilizando soluções já existentes mitigando os riscos no futuro do software.
 
 ## Escudeiro
 
@@ -57,6 +53,16 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 1.5.2. Contruir uma aplicação que contenha testes de integração.
 
 1.6. Construir um pipeline de Continuous Integration.
+
+1.7. Construir uma aplicação utilizando o estilo arquitetural de Client-Server.
+
+1.8. Construir uma aplicação utilizando o estilo arquitetural de Onion.
+
+1.9. Construir uma aplicação utilizando o estilo arquitetural de N-tier.
+
+1.10. Construir uma aplicação utilizando o estilo arquitetural de Layered.
+
+1.11. Construir uma aplicação utilizando o estilo arquitetural de Messaging Broker.
 
 ## Cavaleiro
 
@@ -83,6 +89,14 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 
 2.8. Construir um pipeline de Continuous Deployment.
 
+2.9. Construir uma aplicação monolítica utilizando as aplicações criadas nos itens 1.7, 1.8, 1.9, 1.10 e 1.11.
+
+2.10. Construir uma aplicação utilizando o estilo arquitetural Hexagonal.
+
+2.11. Construir uma aplicação utilizando o estilo arquitetural de Event Driven.
+
+2.12. Construir uma aplicação utilizando o estilo arquitetural de Command Query Responsibility Segregation (CQRS).
+
 ## Mestre
 
 ### Dando vida ao seu projeto
@@ -108,3 +122,7 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 3.6. Construir um pipeline de Continuous Delivery.
 
 3.7. Construir um pipeline que implemente Continuous Verification.
+
+3.8. Construir uma aplicação utilizando o estilo arquitetural de Microservices.
+
+3.9. Construir uma aplicação utilizando o estilo arquitetural de Serveless.
