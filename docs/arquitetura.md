@@ -44,7 +44,7 @@ Todos os níveis do território de Arquitetura de Software terão avalição sob
 
 1.3. Construir uma aplicação que utilize transações de banco de dados, controlando que uma transação não seja afetada por outra.
 
-1.4. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+1.4. Construir uma aplicação que utilize todos os principios de SOLID.
 
 1.5. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
 
@@ -79,7 +79,7 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 
 2.5. Dado 3 (três) bancos de dados relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
 
-2.6. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+2.6. Construir uma aplicação que utilize todas as regras do Object Calisthenics.
 
 2.7. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
 
@@ -113,7 +113,7 @@ Maturity Model da OWASP (vide itens SA1, SA2 e S3). A solução escolhida deve a
 
 3.3. Dado 3 (três) bancos de dados não relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
 
-3.4. Garantir que todas as aplicações desenvolvidas não possuam Code Smells e tenham ferramenta de análise de código.
+3.4. Construir uma apllicaço que implemente todos os Design Pattenrs do GoF (Gang of Four).
 
 3.5. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
 
