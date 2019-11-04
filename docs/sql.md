@@ -170,30 +170,30 @@ Torne-se um escudeiro superando todos os desafios a seguir ;)
 Como existe um relacionamento entre as duas tabela, assinale a consulta irá ter a melhor performance e que está correta:
 
  - [ ] Opção 1:
-              SELECT c.nome, c.email
-              FROM cliente c
-        INNER JOIN vendas v on v.id_cliente = c.id
-              WHERE v.dt_venda > '01/01/2019'
-              ORDER BY 1
+			SELECT c.nome, c.email
+			FROM cliente c
+			INNER JOIN vendas v on v.id_cliente = c.id
+			WHERE v.dt_venda > '01/01/2019'
+			ORDER BY 1
  - [ ] Opção 2:
-              SELECT c.nome, c.email
-                FROM cliente c, vendas v
-                WHERE v.dt_venda > '01/01/2019'
-                  AND v.id_cliente = c.id
-                ORDER BY c.nome, c.dtcriacao
+			SELECT c.nome, c.email
+			FROM cliente c, vendas v
+			WHERE v.dt_venda > '01/01/2019'
+			AND v.id_cliente = c.id
+			ORDER BY c.nome, c.dtcriacao
  - [ ] Opção 3:
-              SELECT c.nome, c.email
-                FROM cliente c, vendas v
-                WHERE v.dt_venda > '01/01/2019'
-          INNER JOIN on v.id_cliente = c.id
-                  AND v.id_cliente = c.id
-                ORDER BY c.nome, c.dtcriacao
+			SELECT c.nome, c.email
+			FROM cliente c, vendas v
+			WHERE v.dt_venda > '01/01/2019'
+			INNER JOIN on v.id_cliente = c.id
+			AND v.id_cliente = c.id
+			ORDER BY c.nome, c.dtcriacao
  - [ ] Opção 4:
-              SELECT c.nome, c.email
-                FROM cliente c, vendas v
-                WHERE dt_venda > '01/01/2019'
-                  AND v.id_cliente = c.id
-                ORDER BY c.nome, c.dtcriacao
+			SELECT c.nome, c.email
+			FROM cliente c, vendas v
+			WHERE dt_venda > '01/01/2019'
+			AND v.id_cliente = c.id
+			ORDER BY c.nome, c.dtcriacao
 
 18. Análise o cenário:
 
@@ -239,6 +239,161 @@ Com o aumento da complexidade do produto, surgiu a necessidade de criar uma estr
 
 20. Com base no modelo anterior de endereços crie os códigos DDL para criação das tabelas e os cuidados tomados com normalização e com a criação de indices;
 
-## Cavaleiro - Em breve!
+## Cavaleiro
+
+DICAS:
+- Para responder as perguntas abaixo, utilize o modelo de dados criado no exercício 1 da prova de escudeiro;
+- No início de cada pergunta esta descrito qual SGBD você pode utilizar para responder a pergunta;
+
+
+1. (Oracle, SQL Server) 
+	Criar uma JOB que execute diariamente uma procedure que atualize os dados de uma visão materializada com base nas informações do dia anterior;
+
+
+2. (Oracle, SQL Server, Mysql, PostgreSQL) 
+	Criar uma função que valide um tipo de dado comparando o formato com uma Expressão Regular; 
+	Crie uma trigger que não permita a inserção/alteração do registro com base na validação da função criada;
+
+3. (Oracle, SQL Server) 
+	Sintetize o relatório criado no exercício 3 da prova de escudeiro dentro de uma View Materializada;
+
+4. (Oracle, SQL Server) 
+	Crie uma package que armazene as informações do usuário logado, e que registre as operações que o mesmo realizou na sessão;
+
+
+5. (Oracle) 
+	Com base no código PL/SQL abaixo:
+
+		CREATE TABLE outra_tabela (ch CHAR (3 CHAR));
+
+		DECLARE 
+			str VARCHAR2(5 CHAR) := 'DREAM';
+		BEGIN
+			INSERT INTO outra_tabela(ch) VALUES(str);
+		END;
+		/
+
+	Executar o código acima no Oracle 12c ou superiores, resulta em:
+
+ - [ ] Opção 1: PL/SQL: numeric or value error: character string buffer too large or too small;
+ - [ ] Opção 2: PL/SQL: procedure successfully completed;
+ - [ ] Opção 3: ERROR: value too large for column;
+ - [ ] Opção 4: ORACLE table sucessfully created;
+ - [ ] Opção 5: ERROR: character string buffer too small; 
+
+6. (Oracle, SQL Server, Mysql) 
+	No seu projeto será preciso criar uma function para retornar o valor de INSS dos trabalhadores de uma empresa. Para isso, crie uma procedure para realizar os cálculos e uma function para passar como parâmetro o valor do salário e obter como retorno o valor de INSS. Para o cálculo, utilize as alíquotas vigentes;
+
+
+7. (Oracle, SQL Server, Mysql, PostgreSQL) 
+	Dado que você tenha a tabela "User" em seu banco de dados, e que tem os seguintes dados cadastrados: 
+
+		idUser    codUser
+		1         3883-3881-1812-2828
+		2         5483-8762-3246-8735
+		3         1024-8950-3068-1024  
+
+	Para exibir os 'Users' que iniciem com o "codUser" '10', qual comando eu devo utilizar:
+
+ - [ ] Opção 1: "SELECT * FROM user WHERE codUser = '10..'";
+ - [ ] Opção 2: "SELECT * FROM user WHERE codUser = '%10'";
+ - [ ] Opção 3: "SELECT * FROM user LIKE codUser = '10%'";
+ - [ ] Opção 4: "SELECT * FROM user WHERE codUser = '10%'";
+ - [ ] Opção 5: "SELECT * FROM user WHERE codUser LIKE '10%'";
+
+8. (Oracle, SQL Server, Mysql, PostgreSQL) 
+	Dado a tabela "Student" e os seguintes registros: 
+
+		idStudents   Age
+		1            20  
+		2            18
+		3            17
+		4            37
+		5            45
+		6            28 
+		7            22
+		8            21
+		9            55
+		10           19
+
+	Foi solicitado para você realizar uma consulta que deverá trazer a quantidade de "Students" que possuem idade entre 20 e 30 anos. 
+
+9. (Oracle, SQL Server, Mysql, PostgreSQL) 
+	Dado a tabela "Student" e os seguintes registros: 
+
+		idStudents   Age
+		1            20  
+		2            18
+		3            
+		4            37
+		5            45
+		6             
+		7            22
+		8            21
+		9            
+		10           19
+
+	Crie um comando para buscar apenas os registros que possuem valor nulos na coluna "Age".
+
+10. (Oracle, SQL Server) 
+	Dado que em seu banco de dados possua a tabela "DB1", com atributos I e J, e outra, "DB2", com atributos I e J.
+	Com isso, será preciso criar uma consulta que retorna os registros de "DB1" que não têm um registro correspondente em "DB2" e que os valores dos atributos I em cada tabela tenham o mesmo valor.
+	Assinale a opção que indica o comando que não produz esse resultado corretamente.
+
+ - [ ] Opção 1:
+			select db1.* 
+			from db1
+			where db1.I not in ( select db2.I 
+			from db2 )
+ - [ ] Opção 2:
+			select db1.*
+			from db1
+			where not exists ( select * 
+			from db2
+			where db2.I = db1.I )
+ - [ ] Opção 3:
+			select db1.*
+			from db1 
+			inner join db2 
+			on db1.I <> db2.I
+ - [ ] Opção 4:
+			select db1.*
+			from db1
+			where ( select count(*) 
+			from db2
+			where db2.I = db1.I ) = 0
+ - [ ] Opção 5:
+			select db1.*
+			from db1
+			where db1.I not in ( select I 
+			from ( select I
+			from db1
+			intersect 
+			select I from db2 ) x )
+							  
+11. (Oracle, SQL Server, Mysql, PostgreSQL) 
+	Dado que você tem criado as seguintes tabelas e os seguintes registros;
+
+	Tabela: User
+		idUser    codUser
+		1         3883-3881-1812-2828
+		2         5483-8762-3246-8735
+		3         1024-8950-3068-1024 
+
+	Tabela: Student
+		idUser    country               codUser
+		1         3883-3881-1812-2828   3883-3881-1812-2828
+		2         5483-8762-3246-8735   5483-8762-3246-8735
+		3         1024-8950-3068-1024   1024-8950-3068-1024
+
+	Um dos comandos que podemos utilizar para excluir uma tabela é o "DROP TABLE". Mas no caso deste cenário. O que acontecerá quando você executar o comando "DROP TABLE" para a tabela "User"? Qual comando você utilizaria para excluir as duas tabelas de uma só vez nessa situação e por que?
+
+12.  (Oracle, SQL Server, Mysql, PostgreSQL)  Algo que sempre devemos ter em nosso radar, por questões de segurança, é termos cópias de nossos bancos de dados. Hoje em dia trabalhamos em ambientes e ferramentas que possuem sistemas automatizadas que fazem backups em tempo real. Mas imagine que você esta sem essas ferramentas e precisa fazer manualmente o backup do seu banco de dados e salvar em um arquivo ".sql", ".txt" ou ".csv". Pensando nisso crie os seguintes comandos: 
+
+	a) Comando para fazer backup do banco completo;
+
+	b) Comando para fazer backup somente das tabelas;
+
+	c) Comando para restaurar o arquivo que você gravou o backup;
 
 ## Mestre - Em breve!
