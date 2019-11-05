@@ -8,7 +8,7 @@
 
 ## Tópicos Abordados
 
-Todos os níveis do território de Arquitetura de Software terão avalição sobre os seguintes tópicos:
+Todos os níveis do território de Arquitetura de Software terão avaliação sobre os seguintes tópicos:
 
 ### Segurança
     
