@@ -20,7 +20,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 ### Boas Práticas de Programação
 
-> A qualidade interna do software é importante para que o desenvolvimento possa fluir com facilidade potencializando a manutenibilidade. Técnicas como SOLID e Object Calistenics e Design Patterns são indispensáveis.
+> A qualidade interna do software é importante para que o desenvolvimento possa fluir com facilidade potencializando a manutenibilidade. Técnicas como Clean Code, SOLID e Object Calistenics e Design Patterns são indispensáveis.
 
 ### Teste Automatizado
 
