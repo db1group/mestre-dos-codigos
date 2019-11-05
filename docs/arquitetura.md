@@ -109,7 +109,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 3.1.3. Implementar a solução desenhada na atividade 2.3 para o item SA3 do projeto OWASP SAMM.
 
-3.2. Construir uma aplicação que realize commit  e rollback de informações em dois bancos de dados distintos.
+3.2. Construir uma aplicação que realize commit e rollback de informações em dois bancos de dados distintos.
 
 3.3. Dado 3 (três) bancos de dados não relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
 
@@ -118,6 +118,8 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 3.5. Para cada item utilizar as técnicas de teste FIRST e AAA. Os casos de teste não podem conter Test Smells.
 
 3.5.1. Construir uma aplicação que contenha testes de mutação.
+
+3.5.2. Construir um aplicação que contenha testes de carga.
 
 3.6. Construir um pipeline de Continuous Delivery.
 
