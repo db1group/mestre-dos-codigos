@@ -38,7 +38,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 ### Construindo o alicerce
 
-1.1. Construir uma aplicação que não trate as 5 últimas vulnerabilidades descritas no Top 10 da OWASP.
+1.1. Construir uma aplicação que possua as 5 últimas vulnerabilidades descritas no Top 10 da OWASP.
 
 1.2. Construir uma aplicação que trate as 5 últimas vulnerabilidades descritas no Top 10 da OWASP.
 
@@ -68,7 +68,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 ### Levantando paredes
 
-2.1. Construir uma aplicação que não trate as 5 primeiras vulnerabilidades descritas no Top 10 da OWASP.
+2.1. Construir uma aplicação que possua as 5 primeiras vulnerabilidades descritas no Top 10 da OWASP.
 
 2.2. Construir uma aplicação que trate as 5 primeiras vulnerabilidades descritas no Top 10 da OWASP.
 
