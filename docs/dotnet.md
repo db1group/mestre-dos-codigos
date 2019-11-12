@@ -5,7 +5,7 @@
 ## Instruções
 
 - Todas as respostas devem estar em algum repositório GIT na nuvem como projeto público.
-- Você pode criar um único projeto ou vários projetos no repositório GIT, mas é importante que haja em algum lugar um arquivo informando a resolução de cada desafio, de forma que o avaliador encontre-o facilmente.
+- Você pode criar uma única solution com um projeto, ou uma solution com vários projetos no repositório GIT, mas é importante que haja em algum lugar um arquivo informando a resolução de cada desafio, de forma que o avaliador encontre-o facilmente.
 - É importante que existam instruções de execução dos desafios.
 
 # Pré requisitos
