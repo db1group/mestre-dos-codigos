@@ -89,7 +89,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 2.8. Construir um pipeline de Continuous Deployment.
 
-2.9. Construir uma aplicação monolítica utilizando as aplicações criadas nos itens 1.7, 1.8, 1.9, 1.10 e 1.11.
+2.9. Desenhar uma solução que utilize o estilo arquitetural monolítico.
 
 2.10. Construir uma aplicação utilizando o estilo arquitetural Hexagonal.
 
