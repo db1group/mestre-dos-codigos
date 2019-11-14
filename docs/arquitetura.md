@@ -52,7 +52,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 1. Implementar uma aplicação que contenha testes de unidade.
 
-1. Contruir uma aplicação que contenha testes de integração.
+1. Implementar uma aplicação que contenha testes de integração.
 
 1. Implementar um pipeline de Continuous Integration.
 
@@ -82,7 +82,7 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 1. Implementar uma aplicação que contenha testes End-To-End (E2E).
 
-1. Contruir uma aplicação que contenha testes de contrato.
+1. Implementar uma aplicação que contenha testes de contrato.
 
 1. Implementar um pipeline de Continuous Deployment.
 
