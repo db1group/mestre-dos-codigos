@@ -40,80 +40,88 @@ Todos os níveis do território de Arquitetura de Software terão avaliação so
 
 ### Construindo o alicerce
 
-1.1. Implementar uma aplicação que possua as vulnerabilidades descritas no projeto OWASP Top 10.
+1. Implementar uma aplicação que possua as vulnerabilidades descritas no projeto OWASP Top 10.
 
-1.2. Implementar uma aplicação que trate as vulnerabilidades descritas no projeto OWASP Top 10.
+1. Implementar uma aplicação que trate as vulnerabilidades descritas no projeto OWASP Top 10.
 
-1.3. Implementar uma aplicação que utilize transações de banco de dados, controlando que uma transação não seja afetada por outra.
+1. Implementar uma aplicação que utilize autenticação e autorização.
 
-1.4. Implementar uma aplicação que utilize todos os principios de SOLID.
+1. Implementar uma aplicação que utilize transações de banco de dados, controlando que uma transação não seja afetada por outra.
 
-1.5. Implementar uma aplicação que contenha testes de unidade.
+1. Implementar uma aplicação que utilize todos os principios de SOLID.
 
-1.6 Contruir uma aplicação que contenha testes de integração.
+1. Implementar uma aplicação que contenha testes de unidade.
 
-1.7. Implementar um pipeline de Continuous Integration.
+1. Contruir uma aplicação que contenha testes de integração.
 
-1.8. Implementar uma aplicação utilizando o estilo arquitetural de Client-Server.
+1. Implementar um pipeline de Continuous Integration.
 
-1.9. Implementar uma aplicação utilizando o estilo arquitetural de Onion.
+1. Implementar uma aplicação utilizando o estilo arquitetural de Client-Server.
 
-1.10. Implementar uma aplicação utilizando o estilo arquitetural de N-tier.
+1. Implementar uma aplicação utilizando o estilo arquitetural de Onion.
 
-1.11. Implementar uma aplicação utilizando o estilo arquitetural de Layered.
+1. Implementar uma aplicação utilizando o estilo arquitetural de N-tier.
 
-1.12. Implementar uma aplicação utilizando o estilo arquitetural de Messaging Broker.
+1. Implementar uma aplicação utilizando o estilo arquitetural de Layered.
+
+1. Implementar uma aplicação utilizando o estilo arquitetural de Messaging Broker.
 
 ## Cavaleiro
 
 ### Levantando paredes
 
-2.1. Desenhar uma solução que garanta que problemas de segurança não ocorram na arquitetura do software baseado nos 3 (três) requisitos descritos no projeto OWASP Software Assurance Maturity Model (SAMM) (vide itens SA1, SA2 e S3). A solução escolhida deve atender uma gama de projetos.
+1. Desenhar uma solução que garanta que problemas de segurança não ocorram na arquitetura do software baseado nos 3 (três) requisitos descritos no projeto OWASP Software Assurance Maturity Model (SAMM) (vide itens SA1, SA2 e S3). A solução escolhida deve atender uma gama de projetos.
 
-2.2. Implementar uma aplicação que utilize mais de uma transação de banco de dados no mesmo processo.
+1. Implementar uma aplicação que utilize autenticação e autorização utilizando o protocolo OAuth 2.0.
 
-2.3. Dado 3 (três) bancos de dados relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
+1. Implementar uma aplicação que utilize mais de uma transação de banco de dados no mesmo processo.
 
-2.4. Implementar uma aplicação que utilize todas as regras do Object Calisthenics.
+1. Dado 3 (três) bancos de dados relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
 
-2.5. Implementar uma aplicação que contenha testes End-To-End (E2E).
+1. Implementar uma aplicação que utilize todas as regras do Object Calisthenics.
 
-2.6. Contruir uma aplicação que contenha testes de contrato.
+1. Implementar uma aplicação que contenha testes End-To-End (E2E).
 
-2.7. Implementar um pipeline de Continuous Deployment.
+1. Contruir uma aplicação que contenha testes de contrato.
 
-2.8. Desenhar uma solução que utilize o estilo arquitetural monolítico.
+1. Implementar um pipeline de Continuous Deployment.
 
-2.9. Implementar uma aplicação utilizando o estilo arquitetural Hexagonal.
+1. Desenhar uma solução que utilize o estilo arquitetural monolítico.
 
-2.10. Implementar uma aplicação utilizando o estilo arquitetural de Event Driven.
+1. Implementar uma aplicação utilizando o estilo arquitetural REST.
 
-2.11. Implementar uma aplicação utilizando o estilo arquitetural de Command Query Responsibility Segregation (CQRS).
+1. Implementar uma aplicação utilizando o estilo arquitetural Hexagonal.
+
+1. Implementar uma aplicação utilizando o estilo arquitetural de Event Driven.
+
+1. Implementar uma aplicação utilizando o estilo arquitetural de Command Query Responsibility Segregation (CQRS).
 
 ## Mestre
 
 ### Dando vida ao seu projeto
 
-3.1. Implementar a solução desenhada na atividade 2.1 para o item SA1 do projeto OWASP SAMM.
+1. Implementar a solução desenhada na atividade 2.1 para o item SA1 do projeto OWASP SAMM.
 
-3.2. Implementar a solução desenhada na atividade 2.1 para o item SA2 do projeto OWASP SAMM.
+1. Implementar a solução desenhada na atividade 2.1 para o item SA2 do projeto OWASP SAMM.
 
-3.3. Implementar a solução desenhada na atividade 2.1 para o item SA3 do projeto OWASP SAMM.
+1. Implementar a solução desenhada na atividade 2.1 para o item SA3 do projeto OWASP SAMM.
 
-3.4. Implementar uma aplicação que realize commit e rollback de informações em dois bancos de dados distintos.
+1. Implementar uma aplicação que utilize autenticação e autorização utilizando OpenID.
 
-3.3. Dado 3 (três) bancos de dados não relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
+1. Implementar uma aplicação que realize commit e rollback de informações em dois bancos de dados distintos.
 
-3.4. Implementar uma apllicaço que implemente todos os Design Pattenrs do GoF (Gang of Four).
+1. Dado 3 (três) bancos de dados não relacionais, escolher apenas um para determinada aplicação, justificando a decisão da escolha e da rejeição dos demais.
 
-3.5. Implementar uma aplicação que contenha testes de mutação.
+1. Implementar uma apllicaço que implemente todos os Design Pattenrs do GoF (Gang of Four).
 
-3.6. Implementar um aplicação que contenha testes de carga.
+1. Implementar uma aplicação que contenha testes de mutação.
 
-3.7. Implementar um pipeline de Continuous Delivery.
+1. Implementar um aplicação que contenha testes de carga.
 
-3.8. Implementar um pipeline que implemente Continuous Verification.
+1. Implementar um pipeline de Continuous Delivery.
 
-3.9. Implementar uma aplicação utilizando o estilo arquitetural de Microservices.
+1. Implementar um pipeline que implemente Continuous Verification.
 
-3.10. Implementar uma aplicação utilizando o estilo arquitetural de Serveless.
+1. Implementar uma aplicação utilizando o estilo arquitetural de Microservices.
+
+1. Implementar uma aplicação utilizando o estilo arquitetural de Serveless.
