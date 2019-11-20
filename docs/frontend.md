@@ -56,7 +56,7 @@ Caso haja alguma dúvida poderá ser aberto uma issue no github.
 
 ---
 
-3. qual o valor da variavél name após a execução da função?
+3. qual o valor da constante name após a execução da função?
 
 ```javascript
  content = {
@@ -82,7 +82,7 @@ const name = userData.getName()
 
 ---
 
-4. Qual o retorno da seguinte função
+4. Qual o retorno da função event.getTitle()
 
 ```javascript
 function Event(name, day) {
