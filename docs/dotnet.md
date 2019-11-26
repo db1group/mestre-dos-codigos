@@ -1,19 +1,18 @@
 # Bem-vindo ao território de .Net do Mestre dos Códigos
 
-## Nível Escudeiro
-
 ## Instruções
 
 - Todas as respostas devem estar em algum repositório GIT na nuvem como projeto público.
 - Você pode criar uma única solution com um projeto, ou uma solution com vários projetos no repositório GIT, mas é importante que haja em algum lugar um arquivo informando a resolução de cada desafio, de forma que o avaliador encontre-o facilmente.
 - É importante que existam instruções de execução dos desafios.
 
-# Pré requisitos
+### Pré requisitos
 
 - Visual Studio 2019 ou similar instalado.
 - Instale as ferramentas necessárias para rodar o Net core. (Instalação do ambiente faz parte da avaliação.)
 - SQL server configurado.
 
+## Nível Escudeiro
 ### Perguntas teóricas de introdução
 
 1. Em quais linguagens o C# foi inspirado?
