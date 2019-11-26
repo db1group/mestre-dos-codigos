@@ -16,9 +16,9 @@
 
 ### Perguntas teóricas de introdução
 
-1. Em quais linguagens o C# foi inspirado ?
-2. Inicialmente o C# foi criado para qual finalidade ?
-3. Quais os principais motivos para a Microsoft ter migrado para o Core ?
+1. Em quais linguagens o C# foi inspirado?
+2. Inicialmente o C# foi criado para qual finalidade?
+3. Quais os principais motivos para a Microsoft ter migrado para o Core?
 4. Cite as principais diferenças entre .Net Full Framework e .Net Core.
 
 ### Trabalhando no Console
@@ -107,7 +107,7 @@
 
 ### Trabalhando com testes
 
-1. Quais os principais frameworks que podemos usar no desenvolvimento de testes ?
+1. Quais os principais frameworks que podemos usar no desenvolvimento de testes?
 
 2. Escolha dois frameworks e faça testes unitários para pelo menos dois exercícios em cada framework.
 
