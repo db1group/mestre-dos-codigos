@@ -6,7 +6,7 @@ Durante essa aventura você alcançará o nível de **Escudeiro, Cavaleiro ou Me
 
 Territórios:
 
-* [.NET (Em breve)]()
+* [.NET](dotnet.md)
 * [Análise de Negócio](analise-negocio.md)
 * [Arquitetura de Software](arquitetura.md)
 * [Delphi](delphi.md)
