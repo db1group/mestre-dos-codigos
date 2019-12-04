@@ -13,9 +13,10 @@ A página pode ser do tema que o candidato preferir, devendo apenas seguir e a m
 Requisitos:
 
 - Header com logo da aplicação, itens do menu e item de menu do usuário (avatar). O Header deve ter fundo transparente quando o scroll da página estiver no topo e alterar para um fundo opaco quando for realizado o 	scroll
--   Um item principal em destaque
--   Listagem dos itens organizados em Carrossel
--   Footer contendo informações do desenvolvedor
+- Um item principal em destaque
+- Listagem dos itens organizados em Carrossel
+- Footer contendo informações do desenvolvedor
+- Layout responsivo para as resoluções mais utilizadas (Ex: 1366x768, 360x640, 768x1024)
 
 ![Netflix](img/netflix.png)
 
@@ -242,7 +243,7 @@ Link da api: [https://developer.marvel.com/](https://developer.marvel.com/)
 	- Personalizar os ítens possíveis da splash screen
 - CSS
 	- Responsividade
-		- [SUGESTÃO] Utilizar queries mobile first que estão no github do mestre dos códigos
+		- [SUGESTÃO] Utilizar queries mobile first baseado no [bootstrap](https://getbootstrap.com/docs/4.3/layout/overview/)
 	- Técnicas de organização do estilo
 		- B.E.M
 		- SMACSS
