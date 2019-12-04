@@ -195,6 +195,65 @@ const object = Object.create()
  - [ ] No inicio de um loop
  - [ ] no inicio de uma função
 
-## Cavaleiro - Em breve!
+## Cavaleiro
+
+Torne-se um cavaleiro superando o desafio a seguir ;)
+
+### Jogo da memória dos Vingadores
+
+Deverá ser desenvolvido um jogo da memória utilizando a API da Marvel.
+Link da api: [https://developer.marvel.com/](https://developer.marvel.com/)
+
+####	Requisitos
+
+- [ ] O jogo deve possuir ao menos 10 personagens.
+- [ ] O jogo deve possuir o tema da Marvel como layout principal, ou seja, cores fontes e imagens devem ter o tema Marvel.
+- [ ] O jogo deve possuir toda a lógica de `match` padrão de um jogo da memória.
+- [ ] O jogo deve abrir uma tela/modal/sidebar quando houver o match, trazendo as informações do personagens em questão.
+- [ ] O jogo deve trazer personagens aleatórios a cada refresh na página.
+- [ ] O jogo deve possuir um score.
+- [ ] O jogo deve possuir um cronômetro quando a primeira carta for virada.
+- [ ] O jogo deve possuir um ranking salvo no `localStorage` do navegador.
+- [ ] O jogo deve possuir testes unitários para o JavaScript.
+- [ ] O jogo deve tratar possíveis exceções da API, como offline, erros no backend ou exceções genéricas.
+- [ ] O jogo deve ser responsivo para as resoluções mais utilizadas (Ex: 1366x768, 360x640, 768x1024)
+
+#### Faz parte do seu desafeio
+- [ ]  Layout bem desenvolvido e agradável.
+- [ ] Chamada a API com a autenticação necessária descrita na documentação da API.
+- [ ] Pode utilizar frameworks/libs que estão na listagem de itens permitidos.
+- [ ] Entendimento da documentação da API da Marvel.
+- [ ] Organização e boas práticas no seu código.
+- [ ] Utilizar Orientação a Objetos.
+
+#### Requisitos técnicos
+
+- HTML Semântico
+- Browser suporte e vendor prefix
+	 - Chrome
+	 - Firefox
+- Frameworks permitidos
+	- VueJs
+	- ReactJs
+	- Angular
+- PWA
+	- Instalar o app na home screen do user
+	- Remover a barra de pesquisa do usuário quando o site for instalado
+	- Personalizar os ítens possíveis da splash screen
+- CSS
+	- Responsividade
+		- [SUGESTÃO] Utilizar queries mobile first que estão no github do mestre dos códigos
+	- Técnicas de organização do estilo
+		- B.E.M
+		- SMACSS
+		- OOCSS
+- Ferramentas auxiliares permitidas
+	- Qualquer framework css
+	- Typescript
+	- Lodash
+	- moment
+	- axios
+	- SASS/SCSS/STYLUS/LESS
+	- Ferramentas de build e automatização como: webpack
 
 ## Mestre - Em breve!
