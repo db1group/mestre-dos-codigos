@@ -20,7 +20,7 @@
    + Construa dois objetos. Um deve armazenar `strings` e outro deve armazenar inteiros;
    + Adicione três `strings` aleatórias e 15 números aleatórios (podem ser entradas do usuário);
    + Imprima o retorno da função `Size` dos dois objetos;
-   + Execute o método `Push` da pilha de `strings`, mostrando o resultado no console, até que a pilha esteja vazia;
+   + Execute o método `Pop` da pilha de `strings`, mostrando no console a string sendo retirada, até que a pilha esteja vazia;
    + Faça o mesmo procedimento com a pilha de inteiros;
    + Imprima o retorno da função `Size` dos dois objetos;
 
