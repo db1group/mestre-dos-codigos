@@ -12,7 +12,7 @@ Territórios:
 * [Delphi](delphi.md)
 * [Frontend](frontend.md)
 * [Java](java.md)
-* [PHP (Em breve)]()
+* [PHP](https://github.com/db1group/MestreDosCodigosPhpExam)
 * [Segurança da Informação](seguranca-informacao.md)
 * [SQL](sql.md)
 
