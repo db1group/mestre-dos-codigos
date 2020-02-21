@@ -4,41 +4,82 @@ Torne-se um escudeiro, cavaleiro e mestre superando todos os desafios a seguir ;
 
 ## Escudeiro
 
-Imagine um novo produto(sistema, app, portal etc) e que você será o responsável pela análise dos requisitos para ele. E crie os artefatos seguindo os enunciados.
+Idealize um novo produto (sistema, app, portal, etc.) o qual você será responsável pela análise dos requisitos. Com base neste produto: 
 
-1) Crie um nome para o seu produto e como artefato inicial crie um Product Vision Board(PVB) para ele. Essa ferramenta irá lhe ajudar a descobrir o objetivo de desenvolve-lo, irá ajudar engajar o time e descobrir se é viável o seu desenvolvimento. Utilize o template do PVB Extended disponível em: <https://www.romanpichler.com/tools/vision-board/>
+1. Qual o problema (motivação) que o projeto irá resolver (*[pitch](https://youtu.be/7161Ev2xvKw?t=29)*)?
 
-2) Após a criação do PVB, crie uma ou mais proto-personas para ele. Escolha qualquer template de criação de personas disponí­veis no mercado, mapa de empatia ou também pode criar o seu.
+2. Elabore uma [EAP](https://artia.com/blog/eap-e-cronograma-de-projetos-entenda-a-diferenca-e-aumente-sua-produtividade/) do Projeto;
 
-3) Roadmap é interessante pois informa como a estratégia do produto será executada, auxilia na priorização das entregas, fornece a continuidade de propósito do produto, conta a história de como o produto irá evoluir entre outros pontos. Para responder este exercício, crie um roadmap do produto visando as 4 próximas entregas, colocando qual será a funcionalidade principal de cada entrega e qual objetivo do negócio será atingido com cada release. Utilize como base os objetivos informados em seu PVB e utilize nomes criativos para cada release, para isso se inspire no Android, onde suas releases tem nomes de doces como: "Donut", "Kitkat", "Jelly Bean" etc. Utilize o template disponí­vel em: <https://www.romanpichler.com/tools/product-roadmap/>
+3. Selecione 4 funcionalidades que você julga mais complexas e elabore:
 
-4) Com base em seu roadmap elabore uma EAP do projeto contendo as funcionalidades que deverão ser especificadas. Junto com a EAP deve ser apresentado um dicionário da EAP.
+   1. Uma estimativa de análise das funcionalidades justificando-as, cite também o método utilizado *([t-shirt](https://blog.trello.com/br/planejamento-de-projetos), [Planning poker](https://www.culturaagil.com.br/planning-poker-tecnica-baseada-consenso/ ), [pert](https://medium.com/@andreluis.arruda/calcular-a-duração-de-uma-atividade-pert-estimativa-de-três-pontos-6cb35a09a1b3))*;
 
-5) Antes de começar o processo de análise o seu cliente precisa saber qual será a estimativa da análise do projeto. Crie uma planilha com a estimativa quebrada por funcionalidade. Busque métricas utilizadas no mercado para fazer estimativa e explique como você montou as estimativas do projeto e as preocupações tomadas.
+   2. Elabore Protótipos, de baixa fidelidade, que servirão de base para os desenvolvedores;
+
+   3. Elabore seus [requisitos funcionais](https://youtu.be/Pn93e2fgIro?t=513).
+
+      *Obs.: Para estes requisitos, elabore cenários de validação, preferencialmente utilizando [BDD](http://www.matera.com/blog/post/bdd-validando-o-comportamento-sistema), e lembre-se que esta documentação deve ser a maior fonte de consulta para os desenvolvedores e Stakeholder's;*
 
 ## Cavaleiro
 
-6) Com base na EAP que foi desenvolvida no exercício anterior, crie um diagrama de caso de uso com as funcionalidades levantadas para o projeto.
+Ainda com base no produto criado na fase de [Escudeiro](#escudeiro):
 
-7) Após identificar os atores e as funcionalidades do sistema responda as questões abaixo:
-    1. Qual o limite do sistema;
-    2. Qual o limite do contexto;
-    3. Quem são os atores que irão utilizar o sistema;
+1. Identifique os [limites do Sistema e os limites do contexto](https://www.passeidireto.com/arquivo/4611736/ireb_cpre-fl_syllabus_pt_v2-1);
+2. Elabore os [Requisitos não funcionais](https://youtu.be/Pn93e2fgIro?t=513) da aplicação;
+3. Elabore um [PVB (Product Vision Board)](https://www.youtube.com/watch?v=jKuzaIkIB68) do projeto;
+4. Crie ao menos duas [proto-personas](https://blog.caelum.com.br/entendendo-usuario-proto-persona/) principais, que se beneficiarão com a aplicação desenvolvida;
+5. Selecione as duas funcionalidades que você julga mais complexas e elabore:
+   1. Protótipos de alta fidelidade;
+   2. [Diagramação de caso de uso](https://medium.com/operacionalti/uml-diagrama-de-casos-de-uso-29f4358ce4d5);
+   3. Diagramação [BPMN](https://www.lucidchart.com/pages/pt/o-que-e-bpmn#discovery__top);
+6. Com base na EAP já elaborada, sugira a ordem de priorização das funcionalidades e justifique.
+7. Com base em todas as funcionalidades levantadas elabore um [MVP](https://www.alura.com.br/artigos/voce-sabe-o-que-e-o-minimum-viable-product), descreva-o e justifique.
 
-8) Pensando em entender melhor o fluxo do negócio. Crie um fluxo do seu projeto utilizando BPMN. Faça um fluxo geral das funcionalidades e depois crie fluxos detalhados a nível de funcionalidade. Para fazer os fluxos detalhados, escolha 3 funcionalidades.
+**Questões comportamentais**
 
-9) Com a criação dos artefatos anteriores já temos insumos suficientes para a criação de protótipos do sistema. Utilize a ferramenta de prototipação que desejar. Mas é importante que os protótipos tenham alta fidelidade ou de preferência que sejam protótipos funcionais. Faça uma pesquisa de mercado para entender quais são os campos essenciais para cada tela pensada para o sistema. Tente criar uma identidade visual para o seu projeto pois isso também será levado em consideração.
+1. Dado que você tenha realizado toda a análise de um projeto com característica de [escopo fechado](https://www.projectbuilder.com.br/blog/quais-os-desafios-e-as-dificuldades-de-projetos-de-escopo-fechado/) , e durante o desenvolvimento, o desenvolvedor aponta a necessidade de realizar uma alteração nos requisitos (por conta de uma regra que você tenha elicitado). Qual seria a sua conduta neste caso?
+2. Dado que você tenha realizado toda a análise de um projeto com característica de escopo fechado, e durante a etapa de desenvolvimento, o Cliente aponta a necessidade de realizar uma alteração nos requisitos. Qual seria a sua conduta neste caso?
+3. Durante o processo de elicitação, você identifica que existe um conflito de interesses entre os Stakeholders do projeto. Neste caso, o que você faria?
 
-10) Descreva quais foram as preocupações que você tomou na criação das telas, pensando nas boas práticas de UX e UI.
 
-## Mestre
 
-11) Vamos começar a especificar o projeto. Crie um requisito não funcional para o seu projeto. Importante que vocé crie um template para esse tipo de requisito.
+## Links Úteis
 
-12) Com o requisito não funcional concluído, podemos passar para os requisitos funcionais. Deverá ter um requisito para cada funcionalidade. Escolha as 5 funcionalidades principais de seu projeto e crie um requisito funcional para cada uma. Não se esquece de validações, mensagens, protótipos etc.
+### Estimativas
 
-13) Crie ao menos 3 critérios de aceitação e 3 cenários utilizando BDD para cada uma das 5 funcionalidades escolhidas.
+* [Guia: Como estimar o esforço de desenvolvimento de software]( https://gaea.com.br/guia-como-estimar-o-esforco-de-desenvolvimento-de-software/ );
+* [Conhecimento em Gerenciamento de Projetos (Guia PMBOK)]( http://www.teraits.com/pitagoras/marcio/gp/PMBOK_5aEdicao.pdf )
 
-14) Crie uma alteração de um dos requisitos funcionais e a documente de forma que outras pessoas que forem consultar o requisito consiga encontrar facilmente o que foi alterado. E para essa alteração crie um novo teste de aceitação.
+### EAP
 
-15) Evidencie alinhamentos realizados com seu cliente referente a um requisito. Essa evidência pode ser um e-mail, uma ata de reunião ou conversa.
+* [[Vídeo] EAP ou WBS? Estrutura Analítica do Projeto - Como Fazer? Tipos de EAP](https://www.youtube.com/watch?v=aIGBv4pIjc4);
+* [EAP (Estrutura Analítica do Projeto): o que é, como fazer e qual a diferença entre EAP e Cronograma](https://www.euax.com.br/2018/12/eap-estrutura-analitica-projeto/).
+
+### Requisitos Funcionais
+
+* [Requisitos de Software](https://edisciplinas.usp.br/pluginfile.php/3144766/mod_resource/content/1/Aula05-requisitos-Rafaela.pdf).
+
+### PVB
+
+* [Product Vision Board… Um canvas que vai ajudar a desenhar seu produto!](https://annelisegripp.com.br/product-vision-board-um-canvas-que-vai-ajudar-a-desenhar-seu-produto/);
+
+### Proto-persona
+
+* [A diferença entre personas de marketing, personas de design e proto-personas](https://brasil.uxdesign.cc/a-diferen%C3%A7a-entre-personas-de-marketing-personas-de-design-e-proto-personas-3375ead5b725).
+
+### BPMN
+
+* [BPMN Quick Guide](https://www.bpmnquickguide.com/view-bpmn-quick-guide/).
+
+### Escopo
+
+* [[Vídeo] Aula 04 - Escopo de Projetos]( https://www.youtube.com/watch?v=HAqrNIpeDyM )
+
+### DRD Analista
+
+* [DRD_ANALISTA DE NEGÓCIOS](https://db1global.sharepoint.com/sites/intranet/Central%20de%20documentos%20PDF/0.1%20-%20DRDs/DRD_ANALISTA%20DE%20NEG%C3%93CIOS.pdf)
+
+### Templates sugeridos
+
+* [FAB_MODELO DE REQUISITO FUNCIONAL.docx](https://db1global.sharepoint.com/sites/intranet/Oraculo/FAB_Modelo%20de%20Requisito%20Funcional.aspx);
+* [FAB MODELO DE REQUISITO FUNCIONAL.docx](https://db1global.sharepoint.com/sites/intranet/Oraculo/FAB_Modelo%20de%20Requisito%20N%C3%A3o%20Funcional.aspx).
