@@ -114,6 +114,59 @@
 
 Utilizando qualquer exercício, execute-o no Linux.
 
-## Cavaleiro - Em breve!
+## Cavaleiro
+
+- É importante que os exercícios sejam feitos em sequência, cada um será um aprendizado diferente e a sequência é evolutiva. Optamos por essa abordagem porque é interessante saber quais os problemas são resolvidos antes de usar o framework direto.
+- Caso não concorde com o uso das ferramentas/frameworks/ideias, por favor, use sua experiencia e argumentos para propor melhorias.
+
+
+1. Criar um serviço REST (Web API) e incluir um método GET que receba um CEP e retorne o endereço, o método deve recebe o parâmetro sem
+o uso de query "busca-por-cep?cep=87000000" deve ser utilizado um modelo de rota para que seja enviado dessa forma 
+"busca-por-cep/87000000". Pode ser utilizado um serviço externo de consulta de CEP "https://viacep.com.br/".
+
+2. Criar um método POST no serviço existente que receba um endereço e retorne o CEP "busca-por-endereco". Pode ser utilizado um serviço externo de consulta de CEP "https://viacep.com.br/".
+
+3. Criar testes unitários e de integração para garantir todo o funcionamento dos exercícios 1 e 2, o teste de integração deve
+consumir o serviço e validar os retornos e evoluir conforme a evolução dos exercícios.
+
+4. Criar uma base de dados para salvar endereços e CEPs, o objeto desse exercícios e criar as tabelas no banco SQL Server. 
+A estrutura das tabelas deve contemplar os dados do serviço externo utilizado nos exercícios 1 e 2.
+
+5. Faça a integração com o banco criado no exercícios 4 sem uso de ORMs, deve ser utilizado service e repository pattern
+como abstração dos acessos a dados e regra de negócios.
+
+6. Criar um método PUT no serviço existente para atualizar um endereço ou CEP que não exista, 
+quando consultar um CEP/endereço que não exista deve ser criado um registo automaticamente (isso vai ser melhorado depois),
+esse registro será o CEP sem o endereço ou o endereço sem o CEP, deve ser retornado uma informação para o usuário do serviço 
+especificando que essa ação ocorreu. Após a inclusão do registo, pode ser feito a atualização, 
+no caso de CEP enviar os dados do endereço para atualização. No caso de endereço, enviar o CEP para atualização.
+Os serviços dos exercícios 1 e 2 devem contemplar a validação de endereço ou CEP não encontrados e inclusão de um registo. 
+Devem ser criados os testes unitários e de integração para validar a inclusão de um novo endereço e atualização.
+Deve ser utilizado injeção de dependencia para comsumo dos serviços e repositorios. A chamada para atualização e manual.
+
+7. Mudar a integração com banco de dados para ORM utilizando o entity framework core, o mapeamento deve ser feito com fluent 
+e deve conter migration. Manter o repository pattern, essa abstração facilitara a troca de consumo do banco.
+
+8. Criar uma consulta por UF/Cidade/Bairro/Logradouro, deve consultar também os CEPs cadastrados da base local.
+
+9. Publicar o serviço em algum Cloud Application Platform de sua preferência. Sugestão Heroku usando Docker.
+
+10. Separar a aplicação em dois serviços, o primeiro ficara com parte de integração com o serviço de consulta de CEP, 
+o segundo ficara com a integração com o banco de dados. No segundo serviço será necessário a inclusão de uma consulta.
+Os serviços que vão se comunicar entre si, neste momento será via REST. Aplicar o exercício 9.
+
+11. Aprender e aplicar fila de mensageria para a comunicação entre os dois serviços, lembre-se que isso será avaliado 
+então pense bem como usar a fila nesse cenário.
+
+12. Aprender e aplicar serviço de cache distribuído. Existe uma situação em que o cache seria ideal nesse cenário, 
+apenas usar o cache será valido, mas saber como usar será o seu diferencial.
+
+13. Crie uma api gateway, como usar e incluir nesse contexto faz parte da avaliação. Aplicar o exercício 9.
+
+14. Utilize algum serviço de monitoramento de serviços.
+
+15. Incluir no api gateway a autenticação nas requisições e incluir healthcheck em todos os serviços.
+
+16. Incluir log em todos os serviços, pode usar o framework de sua preferência. Caso encontre alguma plataforma de monitoramento de log gratuito, aplique em todos os serviços.
 
 ## Mestre - Em breve!
