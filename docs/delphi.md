@@ -172,9 +172,7 @@ Neste exercício, baixe os arquivos **Clientes.xml** e **Cidades.xml** (<a href=
 
 18. Crie uma aplicação VCL que funcione como um “notificador de lembretes”. O usuário poderá informar a data (dd/mm/yyyy), horário (hh:mm) e descrição de quantos lembretes desejar. Ao minimizar, a aplicação deverá ficar na bandeja do sistema (system tray). Utilize um `TTimer` para comparar a data/hora atual com o lembrete e, quando for o horário correspondente, exiba uma notificação no Windows com o componente `TNotificationCenter`. Ao clicar na notificação, a aplicação deverá ser restaurada e exibida para o usuário.
 
-19. Em uma aplicação, para transportar dados entre camadas diferentes, são utilizadas estruturas conhecidos como **DTO** (Data Transfer Objects). A tarefa dos DTOs é únicamente armazenar dados, sem nenhum comportamento. Quando precisamos preparar o DTO para enviá-lo a outra camada da aplicação, precisamos obrigatoriamente preencher os campos um a um. Para evitar repetição de código, é possível sobrescrever o operação de casting para que esse “de-para” seja feito em um único lugar. Isso é o que chamamos de _**Operator Overloading**_. Construa uma aplicação que possua uma classe `TCliente`, com dados e validações (CEP, tamanho de campos, obrigatoriedade de valores e qualquer outra ação que você queira), e uma outra estrutura chamada `TClienteDTO`, que possuirá apenas os dados para transporte. Implemente o _**Operator Overloading**_ de modo a permitir o casting implícito de `TCliente` para `TClienteDTO`.
-
-20. Crie um banco de dados no Firebird 3.0 com a seguinte tabela:
+19. Crie um banco de dados no Firebird 3.0 com a seguinte tabela:
     + FUNCIONARIO
         + ID (inteiro)
         + Nome (texto)
