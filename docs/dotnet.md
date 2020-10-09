@@ -92,7 +92,7 @@
     - Crie uma interface `Imprimivel` que declara um método `MostrarDados`, implemente em ambas as contas e imprima os dados em cada uma.
     - Via console, abra 2 contas de cada tipo e execute todas as operações.
 
-4. Crie uma classe `Televisao` e uma classe `ControleRemoto` que pode controlar o volume e trocar os canais da televisão. O controle de volume permite:
+4. Crie uma classe `Televisao` e uma classe `ControleRemoto` que pode controlar o volume e trocar os canais da televisão. O controle permite:
     - Aumentar ou diminuir a potência do volume de som em uma unidade de cada vez.
     - Aumentar e diminuir o número do canal em uma unidade.
     - Trocar para um canal indicado.
