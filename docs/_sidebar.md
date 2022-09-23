@@ -1,11 +1,6 @@
 * [Home](/)
-* [.Net](dotnet)
+* [Backend](backend)
 * [Análise de Negócio](analise-negocio)
 * [Arquitetura](arquitetura)
-* [Delphi](delphi)
 * [Frontend](frontend)
-* [Java](java)
-* [PHP](https://github.com/db1group/MestreDosCodigosPhpExam)
-* [Segurança da Informação](seguranca-informacao)
-* [SQL](sql)
 
