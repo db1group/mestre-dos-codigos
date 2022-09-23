@@ -1,4 +1,4 @@
-# ![Mestre dos Códigos](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/logo-2.svg)
+# ![Mestre dos Códigos](https://github.com/db1group/mestre-dos-codigos/blob/master/docs/img/logo-2.svg)
 
 Escolha seu território, **treine** e **passe pelas missões** para *provar seu valor nesse game!*
 
@@ -9,4 +9,4 @@ Territórios:
 * [Arquitetura de Software](arquitetura.md)
 * [Frontend](frontend.md)
 
-![Mestre dos Códigos](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/mdc-banner.png?raw=true)
+![Mestre dos Códigos](https://github.com/db1group/mestre-dos-codigos/blob/master/docs/img/mdc-banner.png?raw=true)
