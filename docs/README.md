@@ -1,4 +1,4 @@
-# ![Mestre dos Códigos](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/logo-2.svg =250x250)
+# ![Mestre dos Códigos](https://github.com/db1global/mestre-dos-codigos/blob/master/docs/img/logo-2.svg)
 
 Escolha seu território, **treine** e **passe pelas missões** para *provar seu valor nesse game!*
 
